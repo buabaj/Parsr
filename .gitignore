@@ -118,3 +118,8 @@ tmp
 
 # test directories containing temp data
 test/assets/samples
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
